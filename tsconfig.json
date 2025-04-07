@@ -1,6 +1,16 @@
 {
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
-    "strict": true
+    "strict": true,
+    "module": "Node16",
+    "moduleResolution": "node16",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "jsx": "react-native",
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "typeRoots": ["./types", "./node_modules/@types"],
+    "allowImportingTsExtensions": true
   }
 }
